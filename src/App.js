@@ -437,9 +437,22 @@ const App = () => {
                   <span>Arayüz Geliştirme</span>
                 </div>
               </td>
-              <td>
+              <td
+                onClick={() =>
+                  setModalDetail({
+                    teacherName: "Prof. Dr. Ahmet Sayar",
+                    lessonName: "Veri Bilimi ve Büyük Veri",
+                    recordUrl:
+                      "https://us02web.zoom.us/rec/share/rKygXCGhaeGEvsifYfGZioL9VDdZCG0YLi0RwXxsYjZzEC3UD-8oCu3M7q-bqP0W.qlxb3vnZPobLzp3b",
+                    description: "Veri Bilimi ve Büyük Veri",
+                    date: "17 Ağustos Salı 10:00 - 12:00",
+                    isOpen: true,
+                  })
+                }
+              >
                 <div className="activityWrapper">
-                  <span>Duyuru Yapılacak</span>
+                  <h4>Prof. Dr. Ahmet Sayar</h4>
+                  <span>Veri Bilimi ve Büyük Veri</span>
                 </div>
               </td>
               <td
@@ -459,9 +472,21 @@ const App = () => {
                   <span>Farklı Düşünme Yolları</span>
                 </div>
               </td>
-              <td>
+              <td
+                onClick={() =>
+                  setModalDetail({
+                    teacherName: "Gizemnur Taşkın",
+                    lessonName: "Kriptoloji",
+                    recordUrl: "",
+                    description: "Kriptoloji",
+                    date: "19 Ağustos Perşembe 10:00 - 12:00",
+                    isOpen: true,
+                  })
+                }
+              >
                 <div className="activityWrapper">
-                  <span>Duyuru Yapılacak</span>
+                  <h4>Gizemnur Taşkın</h4>
+                  <span>Kriptoloji</span>
                 </div>
               </td>
               <td>
@@ -525,9 +550,21 @@ const App = () => {
                   <span>CSS</span>
                 </div>
               </td>
-              <td>
+              <td
+                onClick={() =>
+                  setModalDetail({
+                    teacherName: "Çağlar Akyol",
+                    lessonName: "Excel",
+                    recordUrl: "",
+                    description: "Excel",
+                    date: "19 Ağustos Perşembe 13:30 - 15:30",
+                    isOpen: true,
+                  })
+                }
+              >
                 <div className="activityWrapper">
-                  <span>Duyuru Yapılacak</span>
+                  <h4>Çağlar Akyol</h4>
+                  <span>Excel</span>
                 </div>
               </td>
               <td>
