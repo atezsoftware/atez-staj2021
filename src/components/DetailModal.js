@@ -63,17 +63,28 @@ const DetailModal = ({
               <strong>Açıklama: </strong>
               {description}
             </span>
-            <a
-              style={{
-                color: "#2f95f8",
-                margin: "2.5px 0px",
-              }}
-              href={recordUrl}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ders Kayıtını izlemek için tıklayın.
-            </a>
+            {recordUrl ? (
+              <a
+                style={{
+                  color: "#2f95f8",
+                  margin: "2.5px 0px",
+                }}
+                href={recordUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ders Kayıtını izlemek için tıklayın.
+              </a>
+            ) : (
+              <span
+                style={{
+                  color: "#2f95f8",
+                  margin: "2.5px 0px",
+                }}
+              >
+                Bu ders henüz olmamış veya kayıt alınmamış.
+              </span>
+            )}
           </div>
         </>
       ) : null}
