@@ -288,7 +288,7 @@ const App = () => {
               <td
                 onClick={() =>
                   setModalDetail({
-                    teacherName: "Ümmügülsüm Yılmaz",
+                    teacherName: "Ümmügülsüm Özalp",
                     lessonName: "Blokzincir",
                     recordUrl:
                       "https://us02web.zoom.us/rec/share/o7P72FENJlfg27uALS9zAbGYHCCwyCkpCBsQm_OdCjap2OpKaot0dQUJCZO5IO_f.z_Wly2jovjr06B8D",
@@ -299,7 +299,7 @@ const App = () => {
                 }
               >
                 <div className="activityWrapper">
-                  <h4>Ümmügülsüm Yılmaz</h4>
+                  <h4>Ümmügülsüm Özalp</h4>
                   <span>Blokzincir</span>
                 </div>
               </td>
@@ -381,7 +381,7 @@ const App = () => {
               <td
                 onClick={() =>
                   setModalDetail({
-                    teacherName: "Ümmügülsüm Yılmaz",
+                    teacherName: "Ümmügülsüm Özalp",
                     lessonName: "Blokzincir",
                     recordUrl:
                       "https://us02web.zoom.us/rec/share/OFtAGX3wXW4uDmGze7U9IF8OIBE6h50X1HMKB-0U5kuUcUoV8l7BKkGM_becevQF.OK4AQrbBQpBmbB3N",
@@ -392,7 +392,7 @@ const App = () => {
                 }
               >
                 <div className="activityWrapper">
-                  <h4>Ümmügülsüm Yılmaz</h4>
+                  <h4>Ümmügülsüm Özalp</h4>
                   <span>Blokzincir</span>
                 </div>
               </td>
