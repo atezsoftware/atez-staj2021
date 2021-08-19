@@ -1,6 +1,6 @@
 {
-  "homepage": "http://atezsoftware.github.io/atez-staj-program",
-  "name": "atez-staj-program",
+  "homepage": "http://atezsoftware.github.io/atez-staj2021",
+  "name": "atez-staj2021",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
