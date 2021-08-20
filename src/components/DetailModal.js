@@ -73,7 +73,7 @@ const DetailModal = ({
                 target="_blank"
                 rel="noreferrer"
               >
-                Ders Kayıtını izlemek için tıklayın.
+                Ders kaydını izlemek için tıklayın.
               </a>
             ) : (
               <span
@@ -82,7 +82,7 @@ const DetailModal = ({
                   margin: "2.5px 0px",
                 }}
               >
-                Bu ders henüz olmamış veya kayıt alınmamış.
+                Bu ders henüz olmamış veya kayıt yüklenmemiş.
               </span>
             )}
           </div>

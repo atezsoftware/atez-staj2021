@@ -213,7 +213,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Onur Özcan",
                     lessonName: "Müşteriyi Anlamak",
-                    recordUrl: "",
+                    recordUrl: "https://drive.google.com/file/d/1FDlF5hXHM7Ktew3vcaoDeCtANJXU6pgY/view",
                     description: "Müşteriyi Anlamak",
                     date: "6 Ağustos Cuma 13:30 - 15:30",
                     isOpen: true,
@@ -477,7 +477,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Gizemnur Taşkın",
                     lessonName: "Kriptoloji",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/GSrFoTM_Mfx38RfQU4KyBZWzAgRkgmFj2i1Dvm56qaf5x8UaxPc8rsu2bhaQikFy.TacIHJWL5ZxAu3Oy?startTime=1629356769000",
                     description: "Kriptoloji",
                     date: "19 Ağustos Perşembe 10:00 - 12:00",
                     isOpen: true,
@@ -491,7 +491,8 @@ const App = () => {
               </td>
               <td>
                 <div className="activityWrapper">
-                  <span>Duyuru Yapılacak</span>
+                    <h4>Mübeccel Babadostu</h4>
+                    <span>Üniversite Hayatı</span>
                 </div>
               </td>
             </tr>
@@ -555,7 +556,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Çağlar Akyol",
                     lessonName: "Excel",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/4BS8yXhGlw6aGOqswfxTM30dr-8WPxAZWH5LWCpZpyuVnqWktPxqzeSxm_XINyoa.XQYbD2PMDxAXEIy2?startTime=1629369576000",
                     description: "Excel",
                     date: "19 Ağustos Perşembe 13:30 - 15:30",
                     isOpen: true,
@@ -569,7 +570,8 @@ const App = () => {
               </td>
               <td>
                 <div className="activityWrapper">
-                  <span>Duyuru Yapılacak</span>
+                    <h4>Mübeccel Babadostu</h4>
+                    <span>Genel Değerlendirme</span>
                 </div>
               </td>
             </tr>
