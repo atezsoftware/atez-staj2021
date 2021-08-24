@@ -460,7 +460,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Arzu Çağman",
                     lessonName: "Farklı Düşünme Yolları",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/-yv35dQYDYkCQCLCSscA9hoR4Hu-HsIaFIZ4_0Fe6rMhUCUW4c71ZU4gyuMbST8.Ed6utuH1evfH9vyU?startTime=1629270508000",
                     description: "Farklı Düşünme Yolları",
                     date: "18 Ağustos Çarşamba 10:00 - 12:00",
                     isOpen: true,
@@ -539,7 +539,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Gülnaz Aramacı",
                     lessonName: "CSS",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/-yv35dQYDYkCQCLCSscA9hoR4Hu-HsIaFIZ4_0Fe6rMhUCUW4c71ZU4gyuMbST8.Ed6utuH1evfH9vyU?startTime=1629270508000",
                     description: "CSS",
                     date: "18 Ağustos Çarşamba 13:30 - 15:30",
                     isOpen: true,
@@ -585,7 +585,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Dilara Taşyaran",
                     lessonName: "DevOps",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/DSFudpdoUlnYiZQuAOtzMT0hKN6zyt3MD7WAjXQm3MT-Cp7FA2UCC0vi4y4TJK-4.u7yO1ND510yV09ID?startTime=1629702330000",
                     description: "DevOps",
                     date: "23 Ağustos Pazartesi 10:00 - 12:00",
                     isOpen: true,
@@ -602,7 +602,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Tuncay Uzun",
                     lessonName: "Yazılım Geliştirme Araçları",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/t1fz8WEX8t_Eb6LgtxIIe5toNERqdo5RkO7J0hGS0U974SW6HSe08dSS4p2MGw8.Tesdvvrl-RATHI-X?startTime=1629788814000",
                     description: "Yazılım Geliştirme Araçları",
                     date: "24 Ağustos Salı 10:00 - 12:00",
                     isOpen: true,
@@ -614,10 +614,21 @@ const App = () => {
                   <span>Yazılım Geliştirme Araçları</span>
                 </div>
               </td>
-              <td>
+              <td
+                  onClick={() =>
+                      setModalDetail({
+                          teacherName: "Mustafa Öztürk",
+                          lessonName: "Dış Ticaret",
+                          recordUrl: "",
+                          description: "Dış Ticaret",
+                          date: "25 Ağustos Çarşamba 10:00 - 12:00",
+                          isOpen: true,
+                      })
+                  }
+              >
                 <div className="activityWrapper">
-                  <h4>DCS Konuk</h4>
-                  <span>Gümrük</span>
+                  <h4>Mustafa Öztürk</h4>
+                  <span>Dış Ticaret</span>
                 </div>
               </td>
               <td
@@ -662,7 +673,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Şükrü Çakmak",
                     lessonName: "Linux",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/TqgFE5Ld_OkDG7cvRV4fNaKIm4Bv5Ju8ms6SxRS_j6BRPV40chEu0apHOS51GEwr.aA3YbEytiArcyuvT?startTime=1629715436000",
                     description: "Linux",
                     date: "23 Ağustos Pazartesi 13:30 - 15:30",
                     isOpen: true,
@@ -679,7 +690,7 @@ const App = () => {
                   setModalDetail({
                     teacherName: "Tuncay Uzun",
                     lessonName: "Yazılım Test Metodolojisi",
-                    recordUrl: "",
+                    recordUrl: "https://us02web.zoom.us/rec/share/YFJzdfi6Ub7VtFvM4X1YJU7f_EiqkV_AONE8A4kikVvaz8XtVWSWkF3HUE4AHzSQ.KFH6FGmuAEs9xlfp?startTime=1629801620000",
                     description: "Yazılım Test Metodolojisi",
                     date: "24 Ağustos Salı 13:30 - 15:30",
                     isOpen: true,
@@ -691,9 +702,18 @@ const App = () => {
                   <span>Yazılım Test Metodolojisi</span>
                 </div>
               </td>
-              <td>
+              <td onClick={() =>
+                  setModalDetail({
+                      teacherName: "Cem Kara",
+                      lessonName: "Gümrük",
+                      recordUrl: "",
+                      description: "İthalat ve İhracat Süreçleri",
+                      date: "25 Ağustos Çarşamba 13:30 - 15:30",
+                      isOpen: true,
+                  })
+              }>
                 <div className="activityWrapper">
-                  <h4>DCS Konuk</h4>
+                  <h4>Cem Kara</h4>
                   <span>Gümrük</span>
                 </div>
               </td>
